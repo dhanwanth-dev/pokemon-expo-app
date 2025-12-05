@@ -1,4 +1,75 @@
-# Welcome to your Expo app 👋
+<p align="center">
+  <img src="screenshots/splash.png" width="30%"/>
+  <img src="screenshots/home.png" width="30%"/>
+  <img src="screenshots/details.png" width="30%"/>
+</p>
+
+
+# Pokémon Explorer App
+
+An easy, fun way to explore Pokémon with Expo, React Native, TypeScript, Expo Router, Lottie React Native, and the PokeAPI.
+
+## Purpose of This Project
+- Learn the basics of Expo and React Native.
+- Practice TypeScript, animations, and API calls.
+- Have fun building a simple but polished Pokémon experience.
+
+## Features
+- Pikachu animated splash screen using Lottie.
+- Animated Pokémon cards on the home screen.
+- Fetches live Pokémon data from the PokeAPI.
+- Pokémon details screen with power level, animated energy bar, and floating Pokémon image.
+- Type-based color themes.
+- Smooth navigation handled by Expo Router.
+
+## Technologies Used
+- Expo + React Native
+- TypeScript
+- Expo Router
+- Lottie React Native
+- PokeAPI
+
+## Project Folder Structure
+```
+app/_layout.tsx       # Navigation layout and splash logic
+app/index.tsx         # Home screen with Pokémon cards
+app/poke_details.tsx  # Pokémon details screen with animations
+assets/pikachu.json   # Lottie animation for the splash screen
+```
+
+## How to Run This Project
+Follow these commands in order:
+1. `git clone https://github.com/YOUR_USERNAME/pokemon-expo-app.git`
+2. `cd pokemon-expo-app`
+3. `npm install`
+4. `npx expo install lottie-react-native`
+5. `npm run reset-project`
+6. `npx expo start`
+
+## How To Add Screenshots To GitHub
+1. Create a folder named `screenshots/` in the project root.
+2. Add your images: `screenshots/splash.png`, `screenshots/home.png`, `screenshots/details.png`.
+3. Example markdown to show an image:
+   ```markdown
+   ![Splash](screenshots/splash.png)
+   ```
+4. Commit and push the screenshots:
+   - `git add screenshots`
+   - `git commit -m "Add app screenshots"`
+   - `git push`
+
+## Future Improvements
+- Add search and filters for Pokémon types.
+- Cache API results for offline viewing.
+- Add sound effects and haptics.
+- Support more detailed stats and moves.
+
+## Disclaimer
+- Pokémon is a trademark of Nintendo/Creatures Inc./GAME FREAK inc.
+- This app uses the public PokeAPI for learning and fun; it is not official and not for commercial use.
+
+## Author
+- Your Name Here# Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
