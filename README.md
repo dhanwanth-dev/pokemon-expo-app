@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="screenshots/splash.png" width="30%"/>
-  <img src="screenshots/home.png" width="30%"/>
-  <img src="screenshots/details.png" width="30%"/>
+  <img src="screenshots/splash.jpeg" width="30%"/>
+  <img src="screenshots/home.jpeg" width="30%"/>
+  <img src="screenshots/details.jpeg" width="30%"/>
 </p>
 
 
