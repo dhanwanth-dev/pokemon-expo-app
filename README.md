@@ -31,20 +31,33 @@ An easy, fun way to explore Pokémon with Expo, React Native, TypeScript, Expo R
 
 ## Project Folder Structure
 ```
-app/_layout.tsx       # Navigation layout and splash logic
-app/index.tsx         # Home screen with Pokémon cards
-app/poke_details.tsx  # Pokémon details screen with animations
-assets/pikachu.json   # Lottie animation for the splash screen
+pokemon-expo-app/
+├── app/
+│   ├── _layout.tsx          # Navigation layout and splash logic
+│   ├── index.tsx            # Home screen with Pokémon cards
+│   └── poke_details.tsx     # Pokémon details screen with animations
+├── assets/
+│   ├── pikachu.json         # Lottie animation for the splash screen
+│   └── images/
+├── node_modules/
+├── app.json                 # Expo app configuration
+├── package.json             # Project dependencies
+├── tsconfig.json            # TypeScript configuration
+├── eslint.config.js         # ESLint configuration
+├── expo-env.d.ts            # Expo environment types
+├── README.md                # This file
+└── .gitignore
 ```
 
 ## How to Run This Project
 Follow these commands in order:
-1. `git clone https://github.com/YOUR_USERNAME/pokemon-expo-app.git`
-2. `cd pokemon-expo-app`
-3. `npm install`
-4. `npx expo install lottie-react-native`
-5. `npm run reset-project`
-6. `npx expo start`
+1. `npx create-expo-app@latest pokemon-expo-app`
+2. `git clone https://github.com/YOUR_USERNAME/pokemon-expo-app.git`
+3. `cd pokemon-expo-app`
+4. `npm install`
+5. `npx expo install lottie-react-native`
+6. `npm run reset-project`
+7. `npx expo start`
 
 ## How To Add Screenshots To GitHub
 1. Create a folder named `screenshots/` in the project root.
